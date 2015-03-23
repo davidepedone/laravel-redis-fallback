@@ -5,7 +5,7 @@ This package simply checks for the connection and if test fails, cache is switch
 As soon as Redis come back it will be used again.
 
 ##How it works
-```LaravelRedisFallbackServiceProvider`` class extends ```Illuminate\Cache\CacheServiceProvider``` and overrides ```register()``` method as follow:
+```LaravelRedisFallbackServiceProvider``` class extends ```Illuminate\Cache\CacheServiceProvider``` and overrides ```register()``` method as follow:
 ```php
 	public function register(){
 
